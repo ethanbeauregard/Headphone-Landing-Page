@@ -1,0 +1,145 @@
+#design-by {
+ position: relative;
+ top: -200px;
+}
+
+#design-by .design-container {
+ position: relative;
+ background: #fff;
+ overflow: hidden;
+ border-radius: 5px;
+}
+
+#design-by .design-container:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+#design-by .design-container .bg-container{
+ position: relative;
+ background: #6066F2;
+ overflow: hidden;
+ padding: 45px;
+}
+
+#design-by .design-container .bg-img {
+ position: absolute;
+ width: 500px;
+ z-index: 0;
+ opacity: .3;
+ top: -30px;
+ right: -100px;
+}
+
+#design-by .design-container .info-section {
+ width: 40%;
+ display: inline-block;
+ float: left;
+}
+
+#design-by .design-container .info-section h5 {
+ color: #FEA83B;
+ font-size: 1.4rem;
+ text-transform: uppercase;
+ margin-bottom: 2rem;
+ position: relative;
+ z-index: 2;
+}
+
+#design-by .design-container .info-section h3 {
+ color: #fff;
+ font-size: 2.7rem;
+ margin-bottom: 2rem;
+ position: relative;
+ z-index: 2;
+}
+#design-by .design-container .info-section .info-list {
+ margin-bottom: 4rem;
+ position: relative;
+ z-index: 2;
+}
+
+#design-by .design-container .info-section .info-list li {
+ color: #fff;
+ list-style: none;
+ font-size: 1.2rem;
+ font-weight: 300;
+ margin-bottom: 14.5px;
+ font-weight: 400;
+}
+
+#design-by .design-container .info-section li .circle{
+ background: #FEA83B;
+ display: inline-block;
+ height: 27px;
+ width: 27px;
+ border-radius: 50%;
+ margin-right: 10px;
+ position: relative;
+ top: 7px;
+}
+
+#design-by .design-container .info-section li .circle .fas{
+ position: absolute;
+ top: 4px;
+ left: 4px;
+}
+
+#design-by .design-container .info-section .white-btn{
+ background: #fff;
+ border-radius: 50px;
+ text-decoration: none;
+ color: #6066F2;
+ padding: 20px 65px;
+ text-transform: uppercase;
+ font-weight: 700;
+ font-size: 1rem;
+ display: inline-block;
+ position: relative;
+ z-index: 2;
+}
+
+#design-by .design-container .icons-section {
+ background: #fff;
+ width: 60%;
+ display: inline-block;
+ float: left;
+ position: relative;
+ z-index: 2;
+}
+
+#design-by .design-container .icons-section .refresh-circle {
+ position: absolute;
+ top: 186px;
+ left: 367px;
+ background: #fff;
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+}
+
+#design-by .design-container .icons-section .refresh-circle .fas {
+ position: relative;
+ color: #FEA83B;
+ font-size: 2.5rem;
+ top: 20px;
+ left: 20px;
+}
+
+#design-by .design-container .icons-section .icon-box{
+ width: 50%;
+ height: 227.5px;
+ display: inline-block;
+ float: left;
+ text-align: center;
+ border: 1px solid #f4f5f7;
+ color: #6066F2;
+ font-size: 1.3rem;
+}
+
+#design-by .design-container .icons-section .icon-box img{
+ height: 27%;
+ margin-bottom: .9rem;
+ margin-top: 50px;
+}
