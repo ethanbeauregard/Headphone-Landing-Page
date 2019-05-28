@@ -6,6 +6,7 @@
 @import "landing-page/color-collection.css";
 @import "landing-page/blue-print.css";
 @import "landing-page/latest.css";
+@import "landing-page/footer.css";
 
 /* FEA83B Orange
 6066F2 Light Blue
@@ -32,73 +33,15 @@ E6CDF9 Light Purple */
  box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, .2);
 }
 
-header {
- padding: 30px 20px;
- font-size: 14px;
- font-weight: 600;
- /* margin-bottom: 10px; */
+/* laptops */
+@media only screen and (max-width: 1215px) {
+ 
 }
-
-header:after {
- content: "";
- display: table;
- clear: both;
+/* tablets */
+@media only screen and (max-width: 1023px) {
+ 
 }
+/* mobile */
+@media only screen and (max-width: 767px) {
 
-header a {
- color: #4C44C1;
- text-decoration: none;
- padding: 0 15px;
-}
-
-header .logo {
- display: inline-block;
- float: left;
- margin-right: 20px;
-}
-
-header .logo img {
-}
-
-header .menu {
- display: inline-block;
- float: left;
- position: relative;
- top: 20px;
-}
-
-header .menu a {
- text-transform: uppercase;
-}
-
-header .header-btns {
- display: inline-block;
- float: right;
- position: relative;
- top: 20px;
- margin: 0px 20px;
-}
-
-header .header-btns .blue-btn {
- background: #6066F2;;
- padding: 14px 46px;
- color: #fff;
- border-radius: 35px;
- text-transform: uppercase;
- letter-spacing: 1px;
- margin: 0 10px;
-}
-
-header .header-btns .blue-btn .fas {
- margin-left: 15px;
-}
-
-header .header-btns .orange-btn {
- background: #FEA83B;
- padding: 14px 46px;
- color: #fff;
- border-radius: 35px;
- text-transform: uppercase;
- letter-spacing: 1px;
- margin: 0 10px;
 }

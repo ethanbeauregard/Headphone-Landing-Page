@@ -1,0 +1,72 @@
+footer {
+ background: #21225e; /* Old browsers */
+ background: -moz-linear-gradient(-45deg, #21225e 0%, #6066f2 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(-45deg, #21225e 0%,#6066f2 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(135deg, #21225e 0%,#6066f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ padding: 80px 0;
+ margin-top: 180px;
+ text-align: center;
+ color: #fff;
+}
+
+footer h2 {
+ font-size: 3rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ color: #fff;
+ margin-bottom: 20px;
+}
+
+footer h2 span {
+ font-weight: 700;
+ text-transform: uppercase;
+ color: #FEA83B;
+}
+
+
+footer .menu {
+ margin-bottom: 20px;
+}
+
+footer .menu li {
+ display: inline-block;
+ padding: 10px 20px;
+}
+
+footer .menu li a {
+ color: #fff;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: .8rem;
+ font-weight: 600;
+}
+
+footer p {
+ font-size: .8rem;
+ font-weight: 300;
+ margin-bottom: 40px;
+}
+
+footer .social-media li {
+ display: inline-block;
+ padding: 0 10px;
+}
+
+footer .social-media li a {
+ color: #E6CDF9;
+ font-size: 2rem;
+ opacity: .5;
+}
+
+/* laptops */
+@media only screen and (max-width: 1215px) {
+ 
+}
+/* tablets */
+@media only screen and (max-width: 1023px) {
+ 
+}
+/* mobile */
+@media only screen and (max-width: 767px) {
+
+}
