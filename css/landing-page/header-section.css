@@ -12,7 +12,7 @@ header:after {
 }
 
 header a {
- color: #4C44C1;
+ color: #2980B9;
  text-decoration: none;
  padding: 0 15px;
 }
@@ -24,6 +24,9 @@ header .logo {
 }
 
 header .logo img {
+ position: relative;
+ top: -5px;
+ left: -5px;
 }
 
 header .menu {
@@ -46,7 +49,7 @@ header .header-btns {
 }
 
 header .header-btns .blue-btn {
- background: #6066F2;;
+ background: #2980B9;
  padding: 14px 46px;
  color: #fff;
  border-radius: 35px;

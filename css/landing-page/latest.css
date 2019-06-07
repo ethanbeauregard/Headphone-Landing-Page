@@ -13,7 +13,7 @@
 }
 
 #latest .header h1 {
- color: #6066F2;
+ color: #6DD5FA;
  font-size: 4.2rem;
  max-width: 400px;
  width: 100%;
@@ -32,10 +32,10 @@
  float: left;
  padding: 20px 70px;
  font-size: 3rem;
- background: #6066F2;
+ background: #2980B9;
  color: #fff;
  cursor: pointer;
- border: 1px solid #6066F2;
+ border: 1px solid #2980B9;
  -webkit-border-top-left-radius: 4px;
  -webkit-border-bottom-left-radius: 4px;
  -moz-border-radius-topleft: 4px;
@@ -104,11 +104,25 @@
  position: relative;
 }
 
-#latest .body .column .bg-square img {
- width: 80%;
+#latest .body .column:nth-child(1) .bg-square img {
+ width: 70%;
  position: absolute;
- top: -26%;
- left: 5%;
+ top: -25%;
+ left: 8%;
+}
+
+#latest .body .column:nth-child(2) .bg-square img {
+ width: 113%;
+ position: absolute;
+ top: -30%;
+ left: -12%;
+}
+
+#latest .body .column:nth-child(3) .bg-square img {
+ width: 66%;
+ position: absolute;
+ top: -27%;
+ left: 15%;
 }
 
 #latest .body .column:nth-child(1) .bg-square .cart {
@@ -161,7 +175,7 @@
 #latest .body .column .line {
  width: 20%;
  height: 2px;
- background: #6066F2;
+ background: #2980B9;
  margin: 52px auto;
 }
 
@@ -177,11 +191,11 @@
 }
 
 #latest .footer img {
- width: 40%;
+ width: 7%;
  z-index: 1;
  position: absolute;
- top: 0%;
- left: 30%;
+ top: -2%;
+ left: 44%;
  filter: grayscale(100%) invert(100%);
  opacity: .1;
  transform: rotate(30deg);
@@ -195,7 +209,7 @@
 
 #latest .footer .info-box h2 {
  font-size: 4rem;
- color: #6066F2;
+ color: #6DD5FA;
  font-weight: 700;
  text-transform: capitalize;
  margin-bottom: 60px;
@@ -257,7 +271,7 @@
 }
 
 #latest .footer .info-box .input-area button {
- background: #6066F2;
+ background: #2980B9;
  padding: 20px 50px;
  color: #fff;
  font-size: 1rem;

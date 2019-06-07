@@ -18,18 +18,20 @@
 
 #design-by .design-container .bg-container{
  position: relative;
- background: #6066F2;
+ background: #2980B9;
  overflow: hidden;
  padding: 45px;
 }
 
 #design-by .design-container .bg-img {
  position: absolute;
- width: 500px;
+ width: 543px;
  z-index: 0;
  opacity: .3;
- top: -30px;
- right: -100px;
+ top: 144px;
+ right: -132px;
+ transform: rotate(-96deg);
+
 }
 
 #design-by .design-container .info-section {
@@ -90,7 +92,7 @@
  background: #fff;
  border-radius: 50px;
  text-decoration: none;
- color: #6066F2;
+ color: #2980B9;
  padding: 20px 65px;
  text-transform: uppercase;
  font-weight: 700;
@@ -138,10 +140,16 @@
  font-size: 1.3rem;
 }
 
-#design-by .design-container .icons-section .icon-box img{
- height: 27%;
- margin-bottom: .9rem;
- margin-top: 50px;
+#design-by .design-container .icons-section .icon-box .title {
+ color: #6DD5FA;
+}
+
+#design-by .design-container .icons-section .icon-box .fas{
+ /* height: 27%; */
+ font-size: 2.8rem;
+ margin-bottom: 2rem;
+ margin-top: 55px;
+ color: #6DD5FA;
 }
 
 /* laptops */

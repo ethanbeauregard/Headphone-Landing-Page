@@ -16,9 +16,12 @@
 }
 
 #color-collection .left-side img {
- width: 80%;
- display: inline-block;
- float: left;
+  width: 86%;
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 50px;
+  left: 0px;
 }
 
 #color-collection .right-side {
@@ -113,11 +116,11 @@
 }
 
 #color-collection .right-side .info-box h2 span.blue {
- color: #6066F2;
+ color: #2980B9;
 }
 
-#color-collection .right-side .info-box h2 span.purple {
- color: #B286F8;
+#color-collection .right-side .info-box h2 span.light-blue {
+ color: #6DD5FA;
  font-weight: 100;
 }
 
@@ -128,7 +131,7 @@
 }
 
 #color-collection .right-side .info-box a {
- color: #6066F2;
+ color: #2980B9;
  font-size: 1.5rem;
  text-decoration: none;
  font-weight: 600;
@@ -137,7 +140,7 @@
 }
 
 #color-collection .right-side .info-box .line {
- background: #B286F8;
+ background: #6DD5FA;
  height: 2px;
  width: 50px;
  display: inline-block;

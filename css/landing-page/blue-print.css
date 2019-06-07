@@ -1,11 +1,12 @@
 #blue-print {
- background: #21225e; /* Old browsers */
- background: -moz-linear-gradient(-45deg, #21225e 0%, #6066f2 100%); /* FF3.6-15 */
- background: -webkit-linear-gradient(-45deg, #21225e 0%,#6066f2 100%); /* Chrome10-25,Safari5.1-6 */
- background: linear-gradient(135deg, #21225e 0%,#6066f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ background: #0372b7; /* Old browsers */
+ background: -moz-linear-gradient(-45deg, #0372b7 46%, #29c5f4 99%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(-45deg, #0372b7 46%,#29c5f4 99%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(135deg, #0372b7 46%,#29c5f4 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
  padding: 170px 0;
  color: #fff;
 }
+
 #blue-print .container:after {
  content: "";
  display: table;
@@ -19,6 +20,10 @@
 
 #blue-print .left-side img {
  width: 100%;
+    transform: rotate(58deg);
+    position: relative;
+    top: 106px;
+    left: 0px;
 }
 
 #blue-print .right-side {
