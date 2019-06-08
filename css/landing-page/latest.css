@@ -299,9 +299,9 @@
   margin-bottom: 150px;
  } 
  #latest .footer img {
-  width: 50%;
-  top: 5%;
-  left: 28%;
+  width: 10%;
+  top: -5%;
+  left: 48%;
  }
  #top-jumbo .left-side .info-container .input-area .far {
   font-size: 2rem;
@@ -332,6 +332,54 @@
  #latest .footer .info-box .input-area:nth-child(2) {
   width: 50%;
   margin: 0;
+ }
+ #latest .footer .info-box .input-area:nth-child(1) .fas {
+  font-size: 1.8rem;
+  position: relative;
+  top: 15px;
+  margin-left: 15px;
+  color: #ABABAB;
+  width: 10%;
+ }
+ #latest .footer .info-box .input-area:nth-child(1) input {
+  background: #fff;
+  padding: 10px;
+  border: none;
+  text-transform: capitalize;
+  width: 230px;
+  font-size: 1rem;
+  opacity: .7;
+  width: 84%;
+ }
+ #latest .footer .info-box .input-area:nth-child(2) .far {
+  font-size: 2rem;
+  position: relative;
+  top: 6px;
+  margin-left: 15px;
+  color: #ABABAB;
+  width: 10%;
+ }
+ #latest .footer .info-box .input-area:nth-child(2) input {
+  background: #fff;
+  padding: 10px;
+  border: none;
+  text-transform: capitalize;
+  width: 230px;
+  font-size: 1rem;
+  opacity: .7;
+  width: 42%;
+ }
+ #latest .footer .info-box .input-area:nth-child(2) button {
+  background: #2980B9;
+  padding: 20px 50px;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+  width: 40%;
  }
 }
 /* mobile */
@@ -380,6 +428,11 @@
   width: 35%;
   float: left;
  }
+ #latest .footer img {
+  width: 14%;
+  top: 3%;
+  left: 39%;
+}
  #latest .footer .info-box .input-area:nth-child(1) {
   width: 100%;
   margin-bottom: 50px;
@@ -387,5 +440,22 @@
  #latest .footer .info-box .input-area:nth-child(2) {
   width: 100%;
   margin: 0;
+ }
+ #latest .footer .info-box .input-area .fas {
+  width: 10%;
+ }
+ #latest .footer .info-box .input-area:nth-child(1) input {
+  width: 85%;
+ }
+ #latest .footer .info-box .input-area .far {
+  top: 6px;
+  margin-left: 16px;
+  width: 10%;
+ }
+ #latest .footer .info-box .input-area input {
+  width: 50%;
+ } 
+ #latest .footer .info-box .input-area button {
+  width: 34%;
  }
 }

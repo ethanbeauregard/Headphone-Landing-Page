@@ -20,10 +20,10 @@
 
 #blue-print .left-side img {
  width: 100%;
-    transform: rotate(58deg);
-    position: relative;
-    top: 106px;
-    left: 0px;
+ transform: rotate(58deg);
+ position: relative;
+ top: 106px;
+ left: 0px;
 }
 
 #blue-print .right-side {
@@ -120,6 +120,13 @@
  #blue-print .left-side {
   width: 40%;
  }
+ #blue-print .left-side img {
+    width: 100%;
+    transform: rotate(58deg);
+    position: relative;
+    top: 262px;
+    left: 0px;
+}
  #blue-print .right-side {
   width: 60%;
  }

@@ -172,11 +172,25 @@
 
 /* laptops */
 @media only screen and (max-width: 1215px) {
- 
+  #color-collection .left-side img {
+    /* position: relative;
+    top: 0px;
+    left: 9%;
+   } */
 }
 /* tablets */
 @media only screen and (max-width: 1023px) {
- 
+  #color-collection .right-side .col-2 {
+    display: none;
+  }
+  #color-collection .left-side img {
+    width: 80%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 257px;
+    left: 0px;
+}
 }
 /* mobile */
 @media only screen and (max-width: 767px) {
@@ -185,7 +199,9 @@
   text-align: center;
  }
  #color-collection .left-side img {
-  float: none;
+  position: relative;
+  top: 0px;
+  left: 9%;
  }
  #color-collection .right-side {
   width: 100%;
@@ -198,6 +214,7 @@
   text-align: left;
  }
  #color-collection .right-side .col-2 {
+  display: inline-block;
   float: left;
   width: 20%;
   padding: 0 20px;

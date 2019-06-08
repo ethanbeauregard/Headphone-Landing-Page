@@ -171,7 +171,7 @@ background: linear-gradient(135deg, #ffffff 39%,#6dd5fa 69%,#2980b9 100%); /* W3
   top: 12px;
  }
  #top-jumbo .left-side .info-container .email-area button {
-  background: #6066F2;
+  background: #2980B9;
   padding: 20px 0;
   font-size: 1rem;
   width: 35%;
@@ -183,7 +183,8 @@ background: linear-gradient(135deg, #ffffff 39%,#6dd5fa 69%,#2980b9 100%); /* W3
  #top-jumbo .right-side img {
   width: 100%;
   position: relative;
-  top: 153px;
+  top: 99px;
+  left: 70px;
  }
 }
 /* mobile */
@@ -229,7 +230,7 @@ background: linear-gradient(135deg, #ffffff 39%,#6dd5fa 69%,#2980b9 100%); /* W3
   top: 12px;
  }
  #top-jumbo .left-side .info-container .email-area button {
-  background: #6066F2;
+  background: #2980B9;
   padding: 20px 0;
   font-size: 1rem;
   width: 35%;
@@ -237,8 +238,9 @@ background: linear-gradient(135deg, #ffffff 39%,#6dd5fa 69%,#2980b9 100%); /* W3
  }
  #top-jumbo .right-side {
   width: 100%;
+  text-align: center;
  }
  #top-jumbo .right-side img {
-  top: 0;
+  top: 62px;
  }
 }
